@@ -1,0 +1,35 @@
+.task-counter{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0.1em;
+    background: var(--gradient-color1);
+    color: black;
+    border-radius: 6px;
+    background: var(--gradient-color1);
+    color: black;
+    border-radius: 6px;
+}
+
+.task-counter h1{
+    margin: 0;
+    width: 100%;
+
+    font-family: var(--font-head);
+    line-height: 1em;
+    padding: 0;
+
+}
+
+.task-counter h2{
+    width: 100%;
+    margin: 0;
+    font-family: var(--font-subhead);
+    font-size: 68px;
+    line-height: 1.5em;
+    padding: 0;
+
+}

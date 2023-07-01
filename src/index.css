@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@200;300;400;500&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
 body{
-  background-image: url("marble-2389904_1280.jpg");
-  aspect-ratio: 3/2;
-  object-fit: contain;
-  background-size: 100vw;
+  background-image: url(assets/bg.png);
+  background-size: 100%;
+  background-repeat: repeat;
   background-attachment: fixed;
+}
+
+*{
+  scroll-behavior: smooth;
 }
 
 :root{
   --font-head: 'Raleway', sans-serif;
-  --font-color: #fff;
+  --font-subhead:'Roboto Slab', serif;
+  --gradient-color1:linear-gradient(90deg, rgba(255, 235, 59, 1) 0%, rgba(121, 85, 72, 1) 100%);
+
 }
 
 code{
@@ -17,4 +22,10 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
+}
+
+.gradient-text{
+  background: linear-gradient(90deg, rgba(255, 235, 59, 1) 0%, rgba(121, 85, 72, 1) 100%);
+  background-clip: text;
+  color: transparent;
 }

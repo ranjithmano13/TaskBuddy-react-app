@@ -1,0 +1,11 @@
+.task-data-counter{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: flex-start;
+    text-align: center;
+    position: absolute;
+    right: 1em;
+    margin: 4em 1em;
+    
+}

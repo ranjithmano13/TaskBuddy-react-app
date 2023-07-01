@@ -1,0 +1,39 @@
+.calendar-card{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: var(--gradient-color1);
+    border-radius: 6px;
+}
+
+.date-day{
+    padding: 1em 3.2em;
+}
+
+.month-year{
+    background: black;
+    padding: 1em 1em;
+}
+
+.calendar-card h1{
+    font-size: 32px;
+    font-family: var(--font-head);
+    line-height: 1em;
+}
+
+.calendar-card h2{
+    margin: 0px 0; 
+    font-family: var(--font-subhead);
+    font-size: 68px;
+    line-height: 1.5em;
+}
+
+.calendar-card h3{
+    font-family: var(--font-head);
+    line-height: 1em;
+    margin: 0px 0;
+
+} 
